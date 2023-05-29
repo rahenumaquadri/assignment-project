@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+section {
+    min-height: 20vh;
+    padding: 2rem 9% 2rem;
+    
+}
+
+
+/* Header section */
+
+
+header {
+    height: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+span {
+    color: yellow;
+}
+
+
+
+/* Box section */
+
+
+.container {
+    background-color: rgba(213, 205, 205, 0.925);
+    height: 170px;
+    margin-left: 10%;
+    margin-right: 10%;
+} 
+
+.table-row{
+    display: table;
+    width: 88%;
+     padding: 7px ; 
+    font-size: 1rem;
+}
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    justify-content: start;
+    padding: 4px 0;
+}
+
+
+/* Home section */
+.home {
+    margin-top: 0;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.home-img {
+    width: 35vw;
+}
+.home-img img{
+    width: 550px;
+    margin-left: 50%;
+}
+
+.home-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.home-span {
+    color: green;
+}
+
+.home-content h2 {
+    font-size: 3rem;
+}
+
+.home-content p {
+    font-size: 1rem;
+    color: rgb(34, 37, 37);
+    padding: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.2rem;
+    background-color: green;
+    color: #fff;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 0 0 3rem aliceblue;
+    height: 45px;
+    width: 150px;
+
+}
+
+.button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btns {
+    display: inline-block;
+    padding: 1rem 2.2rem;
+    background-color: rgb(180, 221, 237);
+    color: green;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 0 3rem aliceblue;
+    height: 45px;
+    width: 150px;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logos {
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.logo {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.logoes {
+    color: purple;
+    font-size: 1.5rem;
+}
